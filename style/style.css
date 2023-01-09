@@ -1,0 +1,109 @@
+.container___principal {
+  height: 95vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #12122b;
+}
+
+.form {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: column;
+  align-items: center;
+  background-color: #383845;
+}
+.form .titulo {
+  color: #0098bd;
+  font-weight: bold;
+  font-size: 1.5rem;
+  width: 90%;
+  text-align: center;
+}
+.form .titulo::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 5px;
+  margin-top: 1.2rem;
+  background-color: #0098bd;
+}
+.form .container___data {
+  width: 100%;
+  height: 50%;
+  padding: 1rem;
+}
+.form .container__email, .form .container___password {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.form .container__email .label, .form .container___password .label {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #0098bd;
+}
+.form .container__email .input, .form .container___password .input {
+  padding: 1rem;
+  border-radius: 5px;
+}
+.form .container__email .input::-moz-placeholder, .form .container___password .input::-moz-placeholder {
+  font-size: 1.1rem;
+}
+.form .container__email .input:-ms-input-placeholder, .form .container___password .input:-ms-input-placeholder {
+  font-size: 1.1rem;
+}
+.form .container__email .input::placeholder, .form .container___password .input::placeholder {
+  font-size: 1.1rem;
+}
+.form .container__email .input:focus, .form .container___password .input:focus {
+  outline: none;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-left: 0.5rem;
+}
+
+.btn {
+  width: 90%;
+  padding: 1rem;
+  background-color: #0098bd;
+  border-radius: 15px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+* {
+  list-style: none;
+}
+* html, * body, * div, * span, * applet, * object, * iframe,
+* h1, * h2, * h3, * h4, * h5, * h6, * p, * blockquote, * pre,
+* a, * abbr, * acronym, * address, * big, * cite, * code,
+* del, * dfn, * em, * img, * ins, * kbd, * q, * s, * samp,
+* small, * strike, * strong, * sub, * sup, * tt, * var,
+* b, * u, * i, * center,
+* dl, * dt, * dd, * ol, * ul, * li,
+* fieldset, * form, * label, * legend,
+* table, * caption, * tbody, * tfoot, * thead, * tr, * th, * td,
+* article, * aside, * canvas, * details, * embed,
+* figure, * figcaption, * footer, * header, * hgroup,
+* menu, * nav, * output, * ruby, * section, * summary,
+* time, * mark, * audio, * video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}/*# sourceMappingURL=style.css.map */

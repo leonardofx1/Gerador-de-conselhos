@@ -15,6 +15,7 @@
     flex-flow:column;
     align-items: center;
     background-color: #383845;
+    border-radius:10px;
     .titulo {
         color:#0098bd;
         font-weight: bold;
@@ -48,6 +49,9 @@
         .input{
             padding: 1rem;
             border-radius: 5px;
+            width: 89%;
+            margin: 0 5px;
+        
             &::placeholder {
                 font-size: 1.1rem;
 
@@ -63,11 +67,12 @@
         
 }
 .success {
-    color:green;
-    font-weight: bold;
-    font-size: 1.1rem;
-    margin-left: .5rem;
+    border:2px solid green;
 }
+.error { 
+    border:2px solid red;
+}
+
 .btn {
     width: 90%;
     padding: 1rem;
@@ -77,4 +82,5 @@
     font-size: 1rem;
     font-weight: 600;
     cursor:pointer;
+    color:white;
 }

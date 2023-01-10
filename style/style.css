@@ -15,6 +15,7 @@
   flex-flow: column;
   align-items: center;
   background-color: #383845;
+  border-radius: 10px;
 }
 .form .titulo {
   color: #0098bd;
@@ -51,6 +52,8 @@
 .form .container__email .input, .form .container___password .input {
   padding: 1rem;
   border-radius: 5px;
+  width: 89%;
+  margin: 0 5px;
 }
 .form .container__email .input::-moz-placeholder, .form .container___password .input::-moz-placeholder {
   font-size: 1.1rem;
@@ -66,10 +69,11 @@
 }
 
 .success {
-  color: green;
-  font-weight: bold;
-  font-size: 1.1rem;
-  margin-left: 0.5rem;
+  border: 2px solid green;
+}
+
+.error {
+  border: 2px solid red;
 }
 
 .btn {
@@ -81,6 +85,7 @@
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
+  color: white;
 }
 
 * {

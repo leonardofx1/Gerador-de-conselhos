@@ -88,11 +88,6 @@
   color: white;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
 .container__conselho {
   height: 100vh;
   display: flex;
@@ -146,8 +141,26 @@
   cursor: pointer;
   border: none;
 }
+.btn__dado:hover {
+  box-shadow: 0.1px 0.1px 50px #53ffab;
+}
 .btn__dado .img__dado {
   height: 15px;
+}
+
+.attribution {
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #313a49;
+  padding: 1rem;
+}
+.attribution a {
+  color: white;
+  text-decoration: none;
+}
+.attribution a:hover {
+  color: #00aec1;
+  text-shadow: 0.1px 0.1px 15px #00aec1;
 }
 
 * {

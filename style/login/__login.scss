@@ -72,6 +72,15 @@
 .error { 
     border:2px solid red;
 }
+.msg__error {
+    display: block;
+    color:red;
+    margin-left: 10px;
+}
+
+.none {
+    display: none;
+}
 
 .btn {
     width: 90%;

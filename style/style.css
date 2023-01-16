@@ -78,8 +78,9 @@
 
 .msg__error {
   display: block;
-  color: red;
+  color: rgb(212, 30, 30);
   margin-left: 10px;
+  font-weight: bold;
 }
 
 .none {

@@ -15,8 +15,8 @@ const getData = async (id) => {
         }
         return response.json()
 
- }catch ({messege}){
-        console.log(messege)
+ }catch ({name, messege}){
+       alert(`${name} ${messege}`)
     }
 }
 const showAdvices = (async (data, id) => {

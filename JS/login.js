@@ -16,11 +16,8 @@ const erorrForm = input => {
    input.classList.add('error')
 }
 const passErro = () => {
-    if(Array.from(msgError.classList).includes('none')){
-        msgError.classList.remove('none')
-    }
+    Array.from(msgError.classList).includes('none') && msgError.classList.remove('none')
     msgError.classList.add('msg__error')
-    console.log(msgError.classList)
 }
 const passSuccess = () => {
     msgError.classList.remove('msg__error')

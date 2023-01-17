@@ -7,8 +7,8 @@ console.log(msgError)
 const validacaoForm = (val,regex) =>  regex.test(val)
 
 const validForm = (input)=> {
-            input.classList.remove('error')
-            input.classList.add('success')
+    input.classList.remove('error')
+    input.classList.add('success')
 }
 
 const erorrForm = input => {
@@ -23,7 +23,6 @@ const passSuccess = () => {
     msgError.classList.remove('msg__error')
     msgError.classList.add('none')
 }
-
 const inputClass = target => {
     target.setAttribute('class', 'input')
     }
@@ -37,8 +36,6 @@ password.addEventListener('input', ({target})=> {
     }
     target.value === '' && inputClass(target) 
 })
-
-
 
 email.addEventListener('input', ({target})=> {
     const emailChecked = validacaoForm(target.value,/^[a-z0-9.]+@[a-z0-9]+\.[a-z]+(\.[a-z]+)?$/i)
